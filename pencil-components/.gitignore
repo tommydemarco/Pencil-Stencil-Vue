@@ -12,6 +12,9 @@ log.txt
 *.sublime-project
 *.sublime-workspace
 
+#API KEYS
+api-keys.js
+
 .stencil/
 .idea/
 .vscode/
