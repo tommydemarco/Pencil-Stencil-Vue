@@ -8,13 +8,17 @@
       >
       <nav class="header__navigation">
         <ul class="header__navigation-list">
+          <li class="header__navigation-item">Change Language</li>
           <li class="header__navigation-item">
             <a target="_blank" href="https://www.skyscanner.de/"
               >Change country</a
             >
           </li>
-          <li class="header__navigation-item">Change Language</li>
-          <li class="header__navigation-item">Login</li>
+          <li class="header__navigation-item">
+            <a target="_blank" href="https://www.skyscanner.de/"
+              >Project repo</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -31,7 +35,7 @@ export default {};
   display: flex;
   justify-content: center;
 
-  padding: 1.8rem 5rem;
+  padding: 1.8rem 4.7rem;
   color: white;
 
   background: rgb(192, 57, 43);
@@ -49,12 +53,13 @@ export default {};
   }
 
   &__logo {
-    font-size: 6rem;
+    padding-top: 0.5rem;
+    font-size: 5rem;
     letter-spacing: 2px;
     font-family: 'Luckiest Guy', cursive;
 
     &--span {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       font-family: 'Satisfy', cursive;
       display: block;
       transform: rotateZ(355deg);

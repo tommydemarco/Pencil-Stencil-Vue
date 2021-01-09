@@ -1,7 +1,12 @@
-<template> Currency rates</template>
+<template>
+  <show-code></show-code>
+</template>
 
 <script>
-export default {};
+import ShowCode from '../components/ShowCode.vue';
+export default {
+  components: { ShowCode }
+};
 </script>
 
 <style></style>
